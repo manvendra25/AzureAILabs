@@ -78,10 +78,10 @@ namespace ConsoleApp1
         static async Task ExtractTextFromPdf()
         {
             // PDF file in project folder: ProjectFolder/Data/sample.pdf
-            string localPdfPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "sample.pdf");
+            string localPdfPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "sample-local-pdf.pdf");
 
-            string endpoint = "https://<your-resource-name>.cognitiveservices.azure.com/";
-            string apiKey = "<your-key>";
+            string endpoint = "endpointURL";
+            string apiKey = "Document AI KEY";
 
             if (!File.Exists(localPdfPath))
             {
