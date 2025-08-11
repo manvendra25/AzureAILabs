@@ -67,12 +67,13 @@ namespace ConsoleApp1
             //await AnalyzeTextSafety();
 
 
-            // call document Intillgance 
-            
-            
-           
-            await ExtractTextFromPdf();
+            //// call document Intillgance 
 
+            //await ExtractTextFromPdf();
+
+            // call document Intillgance 
+            ReadTextFromImage readTextFromImage = new ReadTextFromImage();
+            await readTextFromImage.ReadTextFromImageAsync();
             Console.ReadLine();
         }
         static async Task ExtractTextFromPdf()
