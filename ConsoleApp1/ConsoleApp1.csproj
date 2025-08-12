@@ -138,6 +138,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReadTextFromImage.cs" />
+    <Compile Include="TextAnalysiswith zureAIContentSafety.cs" />
     <Compile Include="TextAnalyticsClassFile.cs" />
   </ItemGroup>
   <ItemGroup>

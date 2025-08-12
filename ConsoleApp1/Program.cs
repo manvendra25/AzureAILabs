@@ -71,9 +71,11 @@ namespace ConsoleApp1
 
             //await ExtractTextFromPdf();
 
-            // call document Intillgance 
-            ReadTextFromImage readTextFromImage = new ReadTextFromImage();
-            await readTextFromImage.ReadTextFromImageAsync();
+            //// call document Intillgance 
+            //ReadTextFromImage readTextFromImage = new ReadTextFromImage();
+            //await readTextFromImage.ReadTextFromImageAsync();
+            // AnalyzeTextAsync with conent safety
+            TextAnalysiswith_zureAIContentSafety.AnalyzeTextAsync();
             Console.ReadLine();
         }
         static async Task ExtractTextFromPdf()
