@@ -77,9 +77,19 @@ namespace ConsoleApp1
             //// AnalyzeTextAsync with conent safety
             //TextAnalysiswith_zureAIContentSafety.AnalyzeTextAsync();
 
-            // text to speech and speech to text 
-            RecognizandSynthesizeSpeech.RecognizeSpeechAsync();
-            RecognizandSynthesizeSpeech.SynthesizeSpeechAsync();
+            //// text to speech and speech to text 
+            //RecognizandSynthesizeSpeech.RecognizeSpeechAsync();
+            //RecognizandSynthesizeSpeech.SynthesizeSpeechAsync();
+
+        //    // speech with translator in multiple langauge
+        //    var speechHelper = new SpeechwithTranslatorHelper(
+        //    "<your-speech-key>",
+        //    "<your-speech-region>",
+        //    "<your-translator-key>",
+        //    "<your-translator-region>"
+        //);
+
+        //    await speechHelper.RunSpeechWorkflowAsync();
             Console.ReadLine();
         }
         static async Task ExtractTextFromPdf()
